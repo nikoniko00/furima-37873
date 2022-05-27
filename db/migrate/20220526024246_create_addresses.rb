@@ -1,3 +1,5 @@
+=begin
+
 class CreateAddresses < ActiveRecord::Migration[6.0]
   def change
     create_table :addresses do |t|
@@ -12,3 +14,5 @@ class CreateAddresses < ActiveRecord::Migration[6.0]
     end
   end
 end
+
+=end

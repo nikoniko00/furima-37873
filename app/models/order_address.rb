@@ -1,3 +1,5 @@
+=begin
+  
 class OrderAddress
   include ActiveModel::Model
   attr_accessor :post_code, :prefecture_id, :city, :address, :building, :telephone_number, :user_id, :item_id, :token
@@ -20,3 +22,5 @@ class OrderAddress
                    telephone_number: telephone_number, building: building, order_id: order.id)
   end
 end
+
+=end

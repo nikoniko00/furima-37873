@@ -1,4 +1,4 @@
 FactoryBot.define do
-  factory :address do
+  factory :waiting_day do
   end
 end
